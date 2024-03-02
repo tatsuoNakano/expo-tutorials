@@ -15,6 +15,8 @@ import EmojiPicker from './components/EmojiPicker';
 import EmojiList from './components/EmojiList';
 import EmojiSticker from './components/EmojiSticker';
 
+
+
 const PlaceholderImage = require('./assets/images/background-image.png');
 
 export default function App() {
@@ -121,7 +123,7 @@ export default function App() {
             <EmojiPicker isVisible={isModalVisible} onClose={onModalClose}>
                 <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
             </EmojiPicker>
-            <StatusBar style="auto" />
+            <StatusBar style="light" />
         </GestureHandlerRootView>
     );
 }
