@@ -9,4 +9,4 @@
 - [ローカルホスト](http://localhost:8081/)
 
 ## 進行中
-- [Use an image picker](https://docs.expo.dev/tutorial/image-picker/)
+- [Add gestures](https://docs.expo.dev/tutorial/gestures/)
